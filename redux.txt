@@ -1,0 +1,55 @@
+- react adalah library yang dignakan untuk membangun antar muka pengguna
+- redux adalah library untuk mengelola state dengan cara yang dapat diprediksi dalam javascript aplikasi
+- redux toolkit adalah library untuk pengembangan redux yang efifien.
+- react redux adalah library yang menyediakan binding untuk menggunakan react dan redux toolkit secara bersamaan dalam  sebuah aplikasi
+
+
+
+Sebagai atauran praktis, kapan kita harus menggunakan redux di aplikasi react kita :
+- redux yang baik adalah berguna ketika anda memiliki satatus aplikasi dalam jumlah besar yang diperlukan di banyak tempat di aplikasi, 
+- status aplikasi sering diperbarui dari waktu ke waktu
+- logika untuk memperbarui state yang kompleks/rumit
+- aplikasi memiliki basis kode erukuran sedang atau besar, dan mungkin dapat  dikerjakan oleh banyak orang
+- hanya perlu diingat bahwa tidak semua aplikasi membutuhkan redux
+
+
+3. Redux adalah salah satu library yang perlu anda lalui dua atau tiga kali hanya untuk memahami terminologi dasar yang juga akan anda temukan. Ada banyak terminologi dan konsep, maka anda perlu belajar sebelum menjadi produtif, saran saya untuk anda adalah jangan khawatir jika anda tidak dapat langsung memahami beberapa konsep
+
+4. Redux dapat bekerja secara mandiri tanpa memerlukan redux toolkit atau react. struktur belajar redux yang baik :
+- Belajar redux
+- Belajar redux toolkit
+- belajar react redux
+
+ini tidak hanya membantu kita mendapatkan pemahaman mendalam tentang kode yang Anda tulis tetapi juga membantu selama wawancara karena perusahaan memiliki basis kode lama dimana redux ada tanpa redux toolkit.
+
+
+hal yang dibutuhkan sebelum belajar redux :
+- fundamental react
+- react hooks
+
+
+
+----------------------------------------------------------
+
+Three Core Concepts
+tiga konsep inti di redux :
+# Cake Shop (perumpamaan) :
+*Entities
+- Shop (Stores cakes on a shelf) : Toko (Menyimpan kue di rak)
+- Shopkeeper (Behind the counter) : Penjaga toko (di belakang konter/meja)
+- Customers (At the store entrance) : Pelanggan (di pintu masuk toko)
+
+*Activities
+- Pelanggan - pesan kue
+- penjaga toko - mengecek kotak kue dari rak (mengemas / mengurangi)
+- tanda terima unyuk melacak
+
+
+# Redux :
+- store (memegang/menyimpan state)
+- action (menjelaskan apa yang terjadi)
+- reducer (ikat store dan tindakan bersama)
+
+store : yang menyimpann state aplikasi kita 
+action : menjelaskan apa yang terjadi dalam aplikasi
+reducer : yang menangani action dan menjelaskan caranya untuk memperbarui state
