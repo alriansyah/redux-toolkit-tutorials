@@ -1,4 +1,4 @@
-- react adalah library yang dignakan untuk membangun antar muka pengguna
+- react adalah library yang digunakan untuk membangun antar muka pengguna
 - redux adalah library untuk mengelola state dengan cara yang dapat diprediksi dalam javascript aplikasi
 - redux toolkit adalah library untuk pengembangan redux yang efifien.
 - react redux adalah library yang menyediakan binding untuk menggunakan react dan redux toolkit secara bersamaan dalam  sebuah aplikasi
